@@ -1074,3 +1074,27 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.04.08-20.16.00:118][908]LogSavePackage: Moving 'C:/Users/Daifuku/Documents/GitHub/603-Rain-Game/RainGame/Saved/2DSideScrollerExampleMapDC0A743445FC00C02ACC93B25A2EC939.tmp' to 'C:/Users/Daifuku/Documents/GitHub/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
 [2021.04.08-20.16.00:152][908]AssetCheck: New page: Asset Save: 2DSideScrollerExampleMap
 [2021.04.08-20.16.00:152][908]LogContentValidation: Display: Validating World /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap
+[2021.04.08-20.17.38:006][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.04.08-20.17.38:071][637]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.04.08-20.17.38:078][637]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.GameInstanceQualtrics_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/GameInstanceQuatrics.PackageMetaData'
+[2021.04.08-20.17.38:078][637]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.SKEL_GameInstanceQualtrics_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/GameInstanceQuatrics.PackageMetaData'
+[2021.04.08-20.17.38:078][637]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.GameInstanceQualtrics:MouseClick.K2Node_FunctionEntry_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/GameInstanceQuatrics.PackageMetaData'
+[2021.04.08-20.17.38:078][637]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.GameInstanceQualtrics:SpacePress.K2Node_FunctionEntry_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/GameInstanceQuatrics.PackageMetaData'
+[2021.04.08-20.17.38:078][637]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.GameInstanceQualtrics:EnterPress.K2Node_FunctionEntry_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/GameInstanceQuatrics.PackageMetaData'
+[2021.04.08-20.17.38:078][637]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.GameInstanceQualtrics:SendToQuatrics.K2Node_FunctionEntry_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/GameInstanceQuatrics.PackageMetaData'
+[2021.04.08-20.17.38:078][637]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.GameInstanceQualtrics:AppendDataToQuery.K2Node_FunctionEntry_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/GameInstanceQuatrics.PackageMetaData'
+[2021.04.08-20.17.38:078][637]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.GameInstanceQualtrics:AppendDataToQuery.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/GameInstanceQuatrics.PackageMetaData'
+[2021.04.08-20.17.38:146][637]LogSavePackage: Moving 'C:/Users/Daifuku/Documents/GitHub/603-Rain-Game/RainGame/Saved/GameInstanceQualtricsB4EA8F57422E2637D003E6A7BB6AD7A0.tmp' to 'C:/Users/Daifuku/Documents/GitHub/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.uasset'
+[2021.04.08-20.17.38:277][637]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/2DSideScrollerBP/Blueprints/GameInstanceQuatrics.GameInstanceQuatrics'
+[2021.04.08-20.17.38:318][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.04.08-20.17.38:348][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.04.08-20.17.38:370][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.04.08-20.17.38:404][637]AssetCheck: New page: Asset Save: GameInstanceQualtrics
+[2021.04.08-20.17.38:404][637]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/GameInstanceQualtrics.GameInstanceQualtrics
+[2021.04.08-20.17.42:349][104]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2021.04.08-20.17.42:405][104]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.04.08-20.17.45:261][426]LogEditorTransaction: Undo Move Node
+[2021.04.08-20.17.48:533][775]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2021.04.08-20.17.48:603][775]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.04.08-20.18.03:244][480]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2021.04.08-20.18.03:314][480]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
