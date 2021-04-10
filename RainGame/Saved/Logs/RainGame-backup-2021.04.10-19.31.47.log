@@ -1,0 +1,1471 @@
+﻿Log file open, 04/10/21 14:42:05
+LogInit: Display: Running engine for game: RainGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.887443
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.10-18.42.05:819][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.10-18.42.05:819][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Engine.ini]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Engine.ini]
+[2021.04.10-18.42.05:820][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Engine.ini]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Engine.ini]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.10-18.42.05:820][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Engine.ini]
+[2021.04.10-18.42.05:820][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Engine.ini]
+[2021.04.10-18.42.05:825][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.10-18.42.05:825][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.10-18.42.05:826][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.10-18.42.05:826][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.10-18.42.05:826][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.10-18.42.05:827][  0]LogHAL: Display: Platform has ~ 16 GB [17063469056 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.10-18.42.05:828][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.10-18.42.05:828][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.10-18.42.05:828][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Scalability.ini]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.10-18.42.05:829][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.10-18.42.05:833][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.10-18.42.05:833][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.10-18.42.05:833][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.10-18.42.05:833][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Config/Windows/Engine.ini]
+[2021.04.10-18.42.05:833][  0]LogInit: Computer: DESKTOP-DAVID
+[2021.04.10-18.42.05:833][  0]LogInit: User: David
+[2021.04.10-18.42.05:833][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.04.10-18.42.05:833][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.10-18.42.05:834][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.10-18.42.05:834][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.10-18.42.05:834][  0]LogMemory: Process Physical Memory: 121.58 MB used, 121.59 MB peak
+[2021.04.10-18.42.05:834][  0]LogMemory: Process Virtual Memory: 103.44 MB used, 103.44 MB peak
+[2021.04.10-18.42.05:834][  0]LogMemory: Physical Memory: 7425.04 MB used,  8847.95 MB free, 16272.99 MB total
+[2021.04.10-18.42.05:834][  0]LogMemory: Virtual Memory: 5215.44 MB used,  134212512.00 MB free, 134217728.00 MB total
+[2021.04.10-18.42.05:841][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.10-18.42.06:021][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.10-18.42.06:023][  0]LogInit: Using OS detected language (en-US).
+[2021.04.10-18.42.06:023][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.10-18.42.06:041][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.10-18.42.06:355][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.10-18.42.06:355][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.10-18.42.07:178][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.10-18.42.07:178][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.10-18.42.07:178][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.10-18.42.07:254][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.04.10-18.42.07:254][  0]LogD3D11RHI:       8088/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.04.10-18.42.07:256][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.10-18.42.07:256][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.10-18.42.07:256][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.10-18.42.07:262][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.10-18.42.07:262][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.10-18.42.07:262][  0]LogWindows: EnumDisplayDevices:
+[2021.04.10-18.42.07:262][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.04.10-18.42.07:262][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.10-18.42.07:262][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.10-18.42.07:262][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.10-18.42.07:262][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.04.10-18.42.07:262][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.04.10-18.42.07:263][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.04.10-18.42.07:263][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.04.10-18.42.07:263][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2021.04.10-18.42.07:311][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.10-18.42.07:312][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.10-18.42.07:312][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.10-18.42.07:340][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.10-18.42.07:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.10-18.42.07:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.10-18.42.07:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.10-18.42.07:789][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.10-18.42.07:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.10-18.42.07:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.10-18.42.07:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.10-18.42.07:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.10-18.42.07:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.10-18.42.07:860][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.10-18.42.07:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.10-18.42.07:903][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.10-18.42.07:903][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.10-18.42.07:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.10-18.42.07:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.10-18.42.07:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.10-18.42.07:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.10-18.42.07:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.10-18.42.07:971][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.10-18.42.07:971][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.10-18.42.08:005][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.10-18.42.08:162][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (H:/Users/David/source/repos/603-Rain-Game/RainGame/Intermediate/Shaders/WorkingDirectory/27548/).
+[2021.04.10-18.42.08:162][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/007FBADA43ACE0E451C6D0B63BDF8044/'.
+[2021.04.10-18.42.08:164][  0]LogXGEController: Cleaning working directory: C:/Users/David/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.10-18.42.08:164][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.10-18.42.08:164][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.10-18.42.08:164][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.10-18.42.09:373][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.10-18.42.09:592][  0]LogDerivedDataCache: Loaded boot cache 0.22s 79MB C:/Users/David/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.10-18.42.09:592][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.10-18.42.09:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/Users/David/source/repos/603-Rain-Game/RainGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.10-18.42.09:592][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.10-18.42.09:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/Users/David/source/repos/603-Rain-Game/RainGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.10-18.42.09:592][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.10-18.42.09:605][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.10-18.42.09:605][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.10-18.42.09:605][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.10-18.42.09:608][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.10-18.42.09:608][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.10-18.42.09:608][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.10-18.42.09:658][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.10-18.42.09:664][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.10-18.42.09:723][  0]LogAssetRegistry: FAssetRegistry took 0.0047 seconds to start up
+[2021.04.10-18.42.10:035][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.10-18.42.10:268][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.10-18.42.10:268][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.10-18.42.10:268][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.10-18.42.10:268][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.10-18.42.10:268][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.10-18.42.10:321][  0]LogNetVersion: RainGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 398735394)
+[2021.04.10-18.42.11:287][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FC6321A980), frame # 0
+[2021.04.10-18.42.11:287][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC630CC680), frame # 0
+[2021.04.10-18.42.11:292][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC630EDC00), frame # 0
+[2021.04.10-18.42.11:355][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.035250 seconds
+[2021.04.10-18.42.11:359][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.04.10-18.42.11:359][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.04.10-18.42.11:359][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.10-18.42.12:300][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.10-18.42.12:310][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.10-18.42.12:579][  0]SourceControl: Source control is disabled
+[2021.04.10-18.42.12:580][  0]SourceControl: Source control is disabled
+[2021.04.10-18.42.12:595][  0]SourceControl: Source control is disabled
+[2021.04.10-18.42.12:603][  0]SourceControl: Source control is disabled
+[2021.04.10-18.42.12:619][  0]SourceControl: Source control is disabled
+[2021.04.10-18.42.13:226][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.10-18.42.13:265][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.10-18.42.13:265][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.10-18.42.13:363][  0]LogOcInput: OculusInput pre-init called
+[2021.04.10-18.42.13:692][  0]LogEngine: Initializing Engine...
+[2021.04.10-18.42.13:694][  0]LogHMD: Oculus plugin initialized. Version: 4.25.4-14469661+++UE4+Release-4.25, OVRPlugin: 1.44.0
+[2021.04.10-18.42.13:697][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.04.10-18.42.13:871][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.10-18.42.13:913][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.10-18.42.13:913][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC6B770800), frame # 0
+[2021.04.10-18.42.13:913][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC6B788680), frame # 0
+[2021.04.10-18.42.13:928][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-18.42.13:928][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-18.42.13:928][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-18.42.13:928][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-18.42.13:928][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-18.42.13:928][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-18.42.13:928][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-18.42.13:928][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-18.42.13:930][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-18.42.13:930][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-18.42.13:975][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-18.42.13:975][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-18.42.14:005][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-18.42.14:009][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-18.42.14:016][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-18.42.14:016][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-18.42.14:017][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-18.42.14:018][  0]LogInit: FAudioDevice initialized.
+[2021.04.10-18.42.14:019][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.10-18.42.14:088][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/David/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.10-18.42.14:089][  0]LogInit: Texture streaming: Enabled
+[2021.04.10-18.42.14:118][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.10-18.42.14:118][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.10-18.42.14:122][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.10-18.42.14:557][  0]LogInit: Transaction tracking system initialized
+[2021.04.10-18.42.14:618][  0]BlueprintLog: New page: Editor Load
+[2021.04.10-18.42.14:832][  0]LocalizationService: Localization service is disabled
+[2021.04.10-18.42.15:179][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.10-18.42.15:179][  0]LogCook: Display: Mobile HDR setting 0
+[2021.04.10-18.42.15:494][  0]LogFileCache: Scanning file cache for directory 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/' took 0.00s
+[2021.04.10-18.42.15:703][  0]SourceControl: Source control is disabled
+[2021.04.10-18.42.15:703][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.520
+[2021.04.10-18.42.15:704][  0]Cmd: MAP LOAD FILE="H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.10-18.42.15:762][  0]LightingResults: New page: Lighting Build
+[2021.04.10-18.42.15:768][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-18.42.15:769][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.42.15:769][  0]MapCheck: New page: Map Check
+[2021.04.10-18.42.15:769][  0]LightingResults: New page: Lighting Build
+[2021.04.10-18.42.15:788][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC6B770800), frame # 0
+[2021.04.10-18.42.15:788][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC6B788680), frame # 0
+[2021.04.10-18.42.15:789][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.04.10-18.42.17:297][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-18.42.17:297][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC54C81200), frame # 0
+[2021.04.10-18.42.17:297][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC6B35F100), frame # 0
+[2021.04.10-18.42.17:311][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.10-18.42.17:326][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.04.10-18.42.17:326][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.10-18.42.17:326][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.46ms to complete.
+[2021.04.10-18.42.17:326][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.623
+[2021.04.10-18.42.17:357][  0]LogUnrealEdMisc: Total Editor Startup Time, took 16.174
+[2021.04.10-18.42.17:517][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.42.17:524][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.42.17:529][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.42.17:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.42.17:555][  0]LogCollectionManager: Loaded 0 collections in 0.001430 seconds
+[2021.04.10-18.42.17:590][  0]LogFileCache: Scanning file cache for directory 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Collections/' took 0.00s
+[2021.04.10-18.42.17:591][  0]LogFileCache: Scanning file cache for directory 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/Developers/David/Collections/' took 0.00s
+[2021.04.10-18.42.17:591][  0]LogFileCache: Scanning file cache for directory 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/Collections/' took 0.00s
+[2021.04.10-18.42.17:591][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3427 classes and 821 folders.
+[2021.04.10-18.42.17:599][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.10-18.42.17:778][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.10-18.42.17:862][  0]LogSlate: Took 0.002081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.10-18.42.17:872][  0]LogSlate: Took 0.006007 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.10-18.42.17:877][  0]LogSlate: Took 0.001688 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.10-18.42.17:962][  0]LogRenderer: Reallocating scene render targets to support 1120x640 Format 10 NumSamples 1 (Frame:1).
+[2021.04.10-18.42.18:062][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.10-18.42.18:062][  0]LogLoad: (Engine Initialization) Total time: 16.88 seconds
+[2021.04.10-18.42.18:062][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.10-18.42.18:078][  0]LogOcInput: OculusInput is initialized
+[2021.04.10-18.42.18:103][  0]LogAssetRegistry: Asset discovery search completed in 8.3816 seconds
+[2021.04.10-18.42.18:106][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.04.10-18.42.18:111][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.10-18.42.18:154][  0]LogSlate: Took 0.002031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.10-18.42.46:799][ 86]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.10-18.42.46:814][ 86]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/WebShot.WebShot
+[2021.04.10-18.42.47:114][ 86]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.04.10-18.42.47:882][ 86]LogSlate: Took 0.001855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.10-18.42.59:561][459]LogSlate: Took 0.005492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.04.10-18.43.09:969][682]BlueprintLog: New page: Compile WebShot
+[2021.04.10-18.43.10:011][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.04.10-18.43.10:054][682]LogSlate: Took 0.006737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.10-18.43.10:788][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/WebShot" FILE="H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset" SILENT=true
+[2021.04.10-18.43.10:821][763]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/WebShot02E09FE8470F004D2FA81DA846514FD4.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset'
+[2021.04.10-18.43.10:834][763]AssetCheck: New page: Asset Save: WebShot
+[2021.04.10-18.43.10:834][763]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/WebShot.WebShot
+[2021.04.10-18.43.14:942][228]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-18.43.14:956][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-18.43.14:956][228]LogHMD: Initializing OVRPlugin session
+[2021.04.10-18.43.16:829][228]LogHMD: Allocating Oculus 3296 x 1776 rendertarget swapchain
+[2021.04.10-18.43.16:833][228]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 10:43:16 AM)
+[2021.04.10-18.43.16:834][228]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.04.10-18.43.16:836][228]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.04.10-18.43.16:836][228]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.43.16:838][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002509s)
+[2021.04.10-18.43.16:839][228]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-18.43.16:839][228]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC0A505600), frame # 3228
+[2021.04.10-18.43.16:839][228]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC6B321580), frame # 3228
+[2021.04.10-18.43.16:839][228]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2021.04.10-18.43.16:839][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003616s)
+[2021.04.10-18.43.16:857][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.04.10-18.43.16:858][228]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-18.43.16:858][228]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-18.43.16:858][228]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-18.43.16:858][228]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-18.43.16:858][228]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-18.43.16:858][228]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-18.43.16:858][228]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-18.43.16:858][228]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-18.43.16:858][228]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-18.43.16:858][228]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-18.43.16:865][228]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-18.43.16:865][228]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-18.43.16:880][228]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-18.43.16:880][228]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-18.43.16:880][228]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-18.43.16:880][228]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-18.43.16:881][228]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-18.43.16:892][228]LogInit: FAudioDevice initialized.
+[2021.04.10-18.43.16:906][228]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-18.43.16:909][228]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-14.43.16
+[2021.04.10-18.43.16:910][228]LogWorld: Bringing up level for play took: 0.000966
+[2021.04.10-18.43.16:910][228]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.04.10-18.43.16:919][228]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.04.10-18.43.16:920][228]PIE: Server logged in
+[2021.04.10-18.43.16:923][228]PIE: Play in editor total start time 1.968 seconds.
+[2021.04.10-18.43.20:729][645]LogCharacterMovement: 2DSideScrollerCharacter_254 is stuck and failed to move! Velocity: X=222.28 Y=0.00 Z=0.00 Location: X=-130.64 Y=-13.40 Z=913.73 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:90.000 Actor:WebShot_C_1 Component:Sphere BoneName:None (0 other events since notify)
+[2021.04.10-18.43.26:143][295]LogCharacterMovement: 2DSideScrollerCharacter_254 is stuck and failed to move! Velocity: X=-460.81 Y=0.00 Z=0.00 Location: X=-247.52 Y=-13.40 Z=913.73 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:90.000 Actor:WebShot_C_7 Component:Sphere BoneName:None (0 other events since notify)
+[2021.04.10-18.43.30:951][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.43.30:951][868]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.43.30:954][868]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-18.43.30:955][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.43.30:961][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-18.43.30:964][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.43.30:987][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.43.31:003][868]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC6B321580), frame # 4868
+[2021.04.10-18.43.31:003][868]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC0A505600), frame # 4868
+[2021.04.10-18.43.31:019][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.04.10-18.43.31:044][869]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.04.10-18.43.59:909][288]BlueprintLog: New page: Compile WebShot
+[2021.04.10-18.43.59:951][288]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.04.10-18.44.00:517][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/WebShot" FILE="H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset" SILENT=true
+[2021.04.10-18.44.00:529][348]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/WebShotE2D04A2A449776B3B798C59358371DA0.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset'
+[2021.04.10-18.44.00:541][348]AssetCheck: New page: Asset Save: WebShot
+[2021.04.10-18.44.00:541][348]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/WebShot.WebShot
+[2021.04.10-18.44.04:081][748]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-18.44.04:091][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-18.44.04:091][748]LogHMD: Initializing OVRPlugin session
+[2021.04.10-18.44.04:173][748]LogHMD: Allocating Oculus 3296 x 1776 rendertarget swapchain
+[2021.04.10-18.44.04:173][748]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 10:44:04 AM)
+[2021.04.10-18.44.04:173][748]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.44.04:176][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002339s)
+[2021.04.10-18.44.04:176][748]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-18.44.04:176][748]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC0D800A00), frame # 8748
+[2021.04.10-18.44.04:176][748]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC20E29580), frame # 8748
+[2021.04.10-18.44.04:177][748]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2021.04.10-18.44.04:177][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003320s)
+[2021.04.10-18.44.04:200][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.04.10-18.44.04:201][748]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-18.44.04:201][748]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-18.44.04:201][748]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-18.44.04:201][748]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-18.44.04:201][748]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-18.44.04:201][748]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-18.44.04:201][748]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-18.44.04:201][748]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-18.44.04:201][748]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-18.44.04:201][748]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-18.44.04:205][748]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-18.44.04:205][748]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-18.44.04:217][748]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-18.44.04:218][748]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-18.44.04:218][748]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-18.44.04:218][748]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-18.44.04:218][748]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-18.44.04:228][748]LogInit: FAudioDevice initialized.
+[2021.04.10-18.44.04:234][748]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-18.44.04:235][748]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-14.44.04
+[2021.04.10-18.44.04:235][748]LogWorld: Bringing up level for play took: 0.000632
+[2021.04.10-18.44.04:235][748]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.04.10-18.44.04:236][748]PIE: Server logged in
+[2021.04.10-18.44.04:237][748]PIE: Play in editor total start time 0.147 seconds.
+[2021.04.10-18.44.05:630][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.44.05:630][909]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.44.05:631][909]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-18.44.05:631][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.44.05:636][909]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-18.44.05:639][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.44.05:673][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.44.05:673][909]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC20E29580), frame # 8909
+[2021.04.10-18.44.05:673][909]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC0D800A00), frame # 8909
+[2021.04.10-18.44.05:675][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.04.10-18.44.05:700][910]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.04.10-18.44.18:341][962]BlueprintLog: New page: Compile WebShot
+[2021.04.10-18.44.18:379][962]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.04.10-18.44.18:915][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/WebShot" FILE="H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset" SILENT=true
+[2021.04.10-18.44.18:927][ 17]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/WebShot4433B0CB472CDB925A33478FBE94D508.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset'
+[2021.04.10-18.44.18:940][ 17]AssetCheck: New page: Asset Save: WebShot
+[2021.04.10-18.44.18:940][ 17]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/WebShot.WebShot
+[2021.04.10-18.44.21:440][296]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-18.44.21:449][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-18.44.21:449][296]LogHMD: Initializing OVRPlugin session
+[2021.04.10-18.44.22:635][296]LogHMD: Allocating Oculus 3296 x 1776 rendertarget swapchain
+[2021.04.10-18.44.22:635][296]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 10:44:22 AM)
+[2021.04.10-18.44.22:680][296]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.44.22:682][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002269s)
+[2021.04.10-18.44.22:683][296]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-18.44.22:683][296]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC7F0F9800), frame # 10296
+[2021.04.10-18.44.22:683][296]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC0AF63880), frame # 10296
+[2021.04.10-18.44.22:683][296]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2021.04.10-18.44.22:683][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003311s)
+[2021.04.10-18.44.22:706][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.04.10-18.44.22:707][296]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-18.44.22:708][296]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-18.44.22:708][296]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-18.44.22:708][296]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-18.44.22:708][296]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-18.44.22:708][296]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-18.44.22:708][296]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-18.44.22:708][296]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-18.44.22:708][296]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-18.44.22:708][296]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-18.44.22:713][296]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-18.44.22:713][296]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-18.44.22:725][296]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-18.44.22:725][296]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-18.44.22:725][296]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-18.44.22:725][296]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-18.44.22:725][296]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-18.44.22:736][296]LogInit: FAudioDevice initialized.
+[2021.04.10-18.44.22:747][296]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-18.44.22:748][296]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-14.44.22
+[2021.04.10-18.44.22:748][296]LogWorld: Bringing up level for play took: 0.000716
+[2021.04.10-18.44.22:748][296]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.04.10-18.44.22:751][296]PIE: Server logged in
+[2021.04.10-18.44.22:751][296]PIE: Play in editor total start time 1.304 seconds.
+[2021.04.10-18.44.23:665][404]LogCharacterMovement: 2DSideScrollerCharacter_254 is stuck and failed to move! Velocity: X=226.52 Y=0.00 Z=0.00 Location: X=-59.60 Y=-13.40 Z=913.73 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:90.000 Actor:WebShot_C_1 Component:Sphere BoneName:None (0 other events since notify)
+[2021.04.10-18.44.27:001][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.44.27:001][799]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.44.27:001][799]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-18.44.27:001][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.44.27:008][799]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-18.44.27:012][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.44.27:045][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.44.27:045][799]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC0AF63880), frame # 10799
+[2021.04.10-18.44.27:045][799]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC7F0F9800), frame # 10799
+[2021.04.10-18.44.27:047][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.04.10-18.44.27:073][800]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.04.10-18.45.29:813][204]LogRenderer: Reallocating scene render targets to support 1144x712 Format 10 NumSamples 1 (Frame:1).
+[2021.04.10-18.45.37:846][118]LogEditorTransaction: Undo Modify Component Scale
+[2021.04.10-18.46.13:554][213]BlueprintLog: New page: Compile WebShot
+[2021.04.10-18.46.13:602][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.04.10-18.46.14:194][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/WebShot" FILE="H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset" SILENT=true
+[2021.04.10-18.46.14:205][272]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/WebShot01A45E804EEC08BCAEFA258CFE63F4AB.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset'
+[2021.04.10-18.46.14:217][272]AssetCheck: New page: Asset Save: WebShot
+[2021.04.10-18.46.14:217][272]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/WebShot.WebShot
+[2021.04.10-18.46.21:183][916]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-18.46.21:193][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-18.46.21:193][916]LogHMD: Initializing OVRPlugin session
+[2021.04.10-18.46.21:275][916]LogHMD: Allocating Oculus 3296 x 1776 rendertarget swapchain
+[2021.04.10-18.46.21:276][916]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 10:46:21 AM)
+[2021.04.10-18.46.21:309][916]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.46.21:312][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002189s)
+[2021.04.10-18.46.21:312][916]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-18.46.21:312][916]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC1F1FEA00), frame # 23916
+[2021.04.10-18.46.21:313][916]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC1962D080), frame # 23916
+[2021.04.10-18.46.21:313][916]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2021.04.10-18.46.21:313][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003164s)
+[2021.04.10-18.46.21:335][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.04.10-18.46.21:337][916]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-18.46.21:337][916]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-18.46.21:337][916]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-18.46.21:337][916]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-18.46.21:337][916]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-18.46.21:337][916]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-18.46.21:337][916]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-18.46.21:337][916]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-18.46.21:338][916]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-18.46.21:338][916]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-18.46.21:341][916]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-18.46.21:341][916]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-18.46.21:354][916]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-18.46.21:354][916]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-18.46.21:354][916]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-18.46.21:354][916]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-18.46.21:354][916]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-18.46.21:365][916]LogInit: FAudioDevice initialized.
+[2021.04.10-18.46.21:375][916]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-18.46.21:376][916]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-14.46.21
+[2021.04.10-18.46.21:376][916]LogWorld: Bringing up level for play took: 0.000664
+[2021.04.10-18.46.21:377][916]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.04.10-18.46.21:378][916]PIE: Server logged in
+[2021.04.10-18.46.21:379][916]PIE: Play in editor total start time 0.187 seconds.
+[2021.04.10-18.46.29:149][847]LogCharacterMovement: 2DSideScrollerCharacter_254 is stuck and failed to move! Velocity: X=51.97 Y=0.00 Z=0.00 Location: X=-145.38 Y=-13.40 Z=913.73 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:65.000 Actor:WebShot_C_8 Component:Sphere BoneName:None (0 other events since notify)
+[2021.04.10-18.46.32:051][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.46.32:051][191]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.46.32:051][191]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-18.46.32:051][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.46.32:056][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-18.46.32:059][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.46.32:092][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.46.32:093][191]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC1962D080), frame # 25191
+[2021.04.10-18.46.32:093][191]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC1F1FEA00), frame # 25191
+[2021.04.10-18.46.32:095][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.04.10-18.46.32:121][192]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.04.10-18.46.35:621][606]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2021.04.10-18.48.41:145][236]BlueprintLog: New page: Compile WebShot
+[2021.04.10-18.48.41:193][236]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.04.10-18.48.41:685][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/WebShot" FILE="H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset" SILENT=true
+[2021.04.10-18.48.41:699][285]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/WebShot5472BFE8426F76D7E5EB9292E2D01554.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset'
+[2021.04.10-18.48.41:711][285]AssetCheck: New page: Asset Save: WebShot
+[2021.04.10-18.48.41:711][285]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/WebShot.WebShot
+[2021.04.10-18.48.44:352][572]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2021.04.10-18.49.04:801][ 10]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-18.49.04:810][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-18.49.04:810][ 10]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 10:49:04 AM)
+[2021.04.10-18.49.04:810][ 10]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.49.04:813][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002139s)
+[2021.04.10-18.49.04:813][ 10]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-18.49.04:813][ 10]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC76D96200), frame # 40010
+[2021.04.10-18.49.04:813][ 10]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC21214680), frame # 40010
+[2021.04.10-18.49.04:813][ 10]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2021.04.10-18.49.04:813][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003011s)
+[2021.04.10-18.49.04:838][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.04.10-18.49.04:841][ 10]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-18.49.04:842][ 10]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-18.49.04:842][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-18.49.04:842][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-18.49.04:842][ 10]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-18.49.04:842][ 10]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-18.49.04:842][ 10]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-18.49.04:842][ 10]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-18.49.04:842][ 10]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-18.49.04:842][ 10]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-18.49.04:846][ 10]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-18.49.04:846][ 10]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-18.49.04:860][ 10]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-18.49.04:860][ 10]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-18.49.04:860][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-18.49.04:860][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-18.49.04:860][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-18.49.04:871][ 10]LogInit: FAudioDevice initialized.
+[2021.04.10-18.49.04:880][ 10]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-18.49.04:881][ 10]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-14.49.04
+[2021.04.10-18.49.04:882][ 10]LogWorld: Bringing up level for play took: 0.000676
+[2021.04.10-18.49.04:882][ 10]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.04.10-18.49.04:884][ 10]PIE: Server logged in
+[2021.04.10-18.49.04:885][ 10]PIE: Play in editor total start time 0.077 seconds.
+[2021.04.10-18.49.06:727][229]LogCharacterMovement: 2DSideScrollerCharacter_254 is stuck and failed to move! Velocity: X=475.03 Y=0.00 Z=0.00 Location: X=22.11 Y=-13.40 Z=913.73 Normal: X=0.00 Y=-1.00 Z=0.00 PenetrationDepth:65.000 Actor:WebShot_C_2 Component:Sphere BoneName:None (0 other events since notify)
+[2021.04.10-18.49.12:335][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.49.12:335][897]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.49.12:335][897]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-18.49.12:335][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.49.12:341][897]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-18.49.12:344][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.49.12:379][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.49.12:380][897]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC21214680), frame # 40897
+[2021.04.10-18.49.12:380][897]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC76D96200), frame # 40897
+[2021.04.10-18.49.12:382][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.04.10-18.49.12:409][898]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.04.10-18.49.34:117][159]BlueprintLog: New page: Compile WebShot
+[2021.04.10-18.49.34:160][159]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.04.10-18.49.34:966][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/WebShot" FILE="H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset" SILENT=true
+[2021.04.10-18.49.34:978][248]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/WebShotB945F0114386D797CC24639147BC7929.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/WebShot.uasset'
+[2021.04.10-18.49.34:987][248]AssetCheck: New page: Asset Save: WebShot
+[2021.04.10-18.49.34:987][248]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/WebShot.WebShot
+[2021.04.10-18.49.38:681][663]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-18.49.38:691][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-18.49.38:691][663]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 10:49:38 AM)
+[2021.04.10-18.49.38:723][663]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.49.38:726][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002191s)
+[2021.04.10-18.49.38:726][663]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-18.49.38:726][663]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC0D77F600), frame # 43663
+[2021.04.10-18.49.38:726][663]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC190C51C0), frame # 43663
+[2021.04.10-18.49.38:726][663]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2021.04.10-18.49.38:726][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003112s)
+[2021.04.10-18.49.38:751][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.04.10-18.49.38:753][663]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-18.49.38:753][663]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-18.49.38:753][663]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-18.49.38:753][663]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-18.49.38:753][663]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-18.49.38:753][663]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-18.49.38:753][663]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-18.49.38:753][663]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-18.49.38:753][663]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-18.49.38:753][663]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-18.49.38:757][663]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-18.49.38:757][663]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-18.49.38:769][663]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-18.49.38:769][663]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-18.49.38:769][663]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-18.49.38:769][663]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-18.49.38:770][663]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-18.49.38:781][663]LogInit: FAudioDevice initialized.
+[2021.04.10-18.49.38:786][663]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-18.49.38:787][663]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-14.49.38
+[2021.04.10-18.49.38:787][663]LogWorld: Bringing up level for play took: 0.000625
+[2021.04.10-18.49.38:787][663]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.04.10-18.49.38:789][663]PIE: Server logged in
+[2021.04.10-18.49.38:790][663]PIE: Play in editor total start time 0.1 seconds.
+[2021.04.10-18.49.42:866][150]LogCharacterMovement: 2DSideScrollerCharacter_254 is stuck and failed to move! Velocity: X=-600.00 Y=0.00 Z=0.00 Location: X=-202.11 Y=-13.40 Z=913.73 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:65.000 Actor:WebShot_C_4 Component:Sphere BoneName:None (0 other events since notify)
+[2021.04.10-18.49.50:475][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.49.50:475][ 58]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-18.49.50:475][ 58]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-18.49.50:476][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.49.50:483][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-18.49.50:486][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-18.49.50:521][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-18.49.50:522][ 58]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC190C51C0), frame # 45058
+[2021.04.10-18.49.50:522][ 58]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC0D77F600), frame # 45058
+[2021.04.10-18.49.50:525][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.04.10-18.49.50:551][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.04.10-18.53.11:887][964]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.04.10-18.53.11:911][964]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerExampleMap_Auto1A772E83E4BC71EE5E5491C8B91636DB3.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2021.04.10-18.53.11:914][964]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.059
+[2021.04.10-18.53.11:914][964]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
+[2021.04.10-18.54.18:830][199]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/2DSideScrollerBP/Blueprints/Projectile.Projectile
+[2021.04.10-18.54.18:953][200]LogRenderer: Reallocating scene render targets to support 1528x916 Format 10 NumSamples 1 (Frame:1).
+[2021.04.10-19.00.59:111][354]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-19.00.59:111][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.01.43:197][480]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2021.04.10-19.01.43:259][480]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.04.10-19.01.44:014][559]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerCharacterB6184E41450D5D468F5B49922721C63D.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2021.04.10-19.01.44:038][559]AssetCheck: New page: Asset Save: 2DSideScrollerCharacter
+[2021.04.10-19.01.44:039][559]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2021.04.10-19.01.47:535][946]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.04.10-19.01.47:551][946]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerExampleMap72116088462CD8AD8A9E3BA3C392EFA4.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2021.04.10-19.01.47:604][946]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerExampleMap_BuiltDa65B7FA804A52784ED0EF46B92112C51C.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2021.04.10-19.01.47:619][946]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.10-19.01.47:619][946]LogContentValidation: Display: Validating World /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap
+[2021.04.10-19.01.47:619][946]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData
+[2021.04.10-19.01.48:461][ 36]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-19.01.48:473][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-19.01.48:473][ 36]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 11:01:48 AM)
+[2021.04.10-19.01.48:473][ 36]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.01.48:476][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002143s)
+[2021.04.10-19.01.48:476][ 36]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-19.01.48:476][ 36]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FCA3EEBE00), frame # 82036
+[2021.04.10-19.01.48:476][ 36]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC9F9CF9C0), frame # 82036
+[2021.04.10-19.01.48:476][ 36]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2021.04.10-19.01.48:477][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003073s)
+[2021.04.10-19.01.48:501][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.04.10-19.01.48:502][ 36]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-19.01.48:502][ 36]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-19.01.48:502][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-19.01.48:502][ 36]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-19.01.48:502][ 36]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-19.01.48:502][ 36]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-19.01.48:502][ 36]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-19.01.48:502][ 36]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-19.01.48:502][ 36]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-19.01.48:502][ 36]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-19.01.48:507][ 36]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-19.01.48:507][ 36]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-19.01.48:520][ 36]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-19.01.48:521][ 36]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-19.01.48:521][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-19.01.48:521][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-19.01.48:521][ 36]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-19.01.48:532][ 36]LogInit: FAudioDevice initialized.
+[2021.04.10-19.01.48:540][ 36]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-19.01.48:542][ 36]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-15.01.48
+[2021.04.10-19.01.48:542][ 36]LogWorld: Bringing up level for play took: 0.000671
+[2021.04.10-19.01.48:542][ 36]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.04.10-19.01.48:544][ 36]PIE: Server logged in
+[2021.04.10-19.01.48:545][ 36]PIE: Play in editor total start time 0.072 seconds.
+[2021.04.10-19.01.51:855][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.01.51:855][427]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.01.51:855][427]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-19.01.51:855][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.01.51:865][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-19.01.51:868][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.01.51:891][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.01.51:904][427]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC9F9CF9C0), frame # 82427
+[2021.04.10-19.01.51:904][427]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FCA3EEBE00), frame # 82427
+[2021.04.10-19.01.51:906][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.04.10-19.01.51:931][428]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.04.10-19.04.46:338][567]LogEditorTransaction: Undo Move Node
+[2021.04.10-19.04.47:123][614]LogEditorTransaction: Undo Add Node
+[2021.04.10-19.07.33:638][979]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2021.04.10-19.07.33:688][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.04.10-19.07.34:850][105]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerCharacter647209AB464F666AFE31B8A3F11CEC10.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2021.04.10-19.07.34:862][105]AssetCheck: New page: Asset Save: 2DSideScrollerCharacter
+[2021.04.10-19.07.34:862][105]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2021.04.10-19.07.51:577][ 54]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-19.07.51:587][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-19.07.51:587][ 54]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 11:07:51 AM)
+[2021.04.10-19.07.51:587][ 54]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.07.51:589][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002149s)
+[2021.04.10-19.07.51:590][ 54]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-19.07.51:590][ 54]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC9F6ABE00), frame # 124054
+[2021.04.10-19.07.51:590][ 54]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FCC5448A40), frame # 124054
+[2021.04.10-19.07.51:590][ 54]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2021.04.10-19.07.51:590][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003095s)
+[2021.04.10-19.07.51:617][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.04.10-19.07.51:619][ 54]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-19.07.51:619][ 54]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-19.07.51:619][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-19.07.51:619][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-19.07.51:619][ 54]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-19.07.51:619][ 54]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-19.07.51:619][ 54]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-19.07.51:619][ 54]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-19.07.51:619][ 54]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-19.07.51:619][ 54]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-19.07.51:624][ 54]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-19.07.51:624][ 54]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-19.07.51:638][ 54]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-19.07.51:638][ 54]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-19.07.51:638][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-19.07.51:638][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-19.07.51:638][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-19.07.51:649][ 54]LogInit: FAudioDevice initialized.
+[2021.04.10-19.07.51:658][ 54]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-19.07.51:660][ 54]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-15.07.51
+[2021.04.10-19.07.51:660][ 54]LogWorld: Bringing up level for play took: 0.000658
+[2021.04.10-19.07.51:660][ 54]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.04.10-19.07.51:661][ 54]PIE: Server logged in
+[2021.04.10-19.07.51:662][ 54]PIE: Play in editor total start time 0.076 seconds.
+[2021.04.10-19.07.52:251][123]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.52:252][123]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.52:741][182]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.52:741][182]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.53:249][243]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.53:249][243]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.53:649][291]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.53:649][291]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.53:882][319]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.53:882][319]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.55:324][492]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.55:324][492]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.55:516][515]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.55:516][515]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.07.56:795][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.07.56:795][662]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.07.56:795][662]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-19.07.56:795][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.07.56:805][662]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-19.07.56:808][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.07.56:844][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.07.56:844][662]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FCC5448A40), frame # 124662
+[2021.04.10-19.07.56:844][662]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC9F6ABE00), frame # 124662
+[2021.04.10-19.07.56:847][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.04.10-19.07.56:873][663]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.04.10-19.08.26:144][969]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2021.04.10-19.08.26:192][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.04.10-19.08.26:843][ 35]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerCharacter737E21BE4698C93A8E11F6B26298B0FC.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2021.04.10-19.08.26:855][ 35]AssetCheck: New page: Asset Save: 2DSideScrollerCharacter
+[2021.04.10-19.08.26:856][ 35]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2021.04.10-19.08.29:884][368]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-19.08.29:893][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-19.08.29:893][368]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 11:08:29 AM)
+[2021.04.10-19.08.29:924][368]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.08.29:926][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002122s)
+[2021.04.10-19.08.29:926][368]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-19.08.29:926][368]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC9F687E00), frame # 128368
+[2021.04.10-19.08.29:926][368]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC06AE0900), frame # 128368
+[2021.04.10-19.08.29:927][368]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2021.04.10-19.08.29:927][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003020s)
+[2021.04.10-19.08.29:953][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.04.10-19.08.29:954][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-19.08.29:954][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-19.08.29:954][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-19.08.29:954][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-19.08.29:954][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-19.08.29:954][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-19.08.29:954][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-19.08.29:954][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-19.08.29:955][368]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-19.08.29:955][368]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-19.08.29:958][368]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-19.08.29:958][368]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-19.08.29:970][368]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-19.08.29:971][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-19.08.29:971][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-19.08.29:971][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-19.08.29:971][368]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-19.08.29:982][368]LogInit: FAudioDevice initialized.
+[2021.04.10-19.08.29:991][368]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-19.08.29:992][368]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-15.08.29
+[2021.04.10-19.08.29:992][368]LogWorld: Bringing up level for play took: 0.000620
+[2021.04.10-19.08.29:992][368]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.04.10-19.08.29:994][368]PIE: Server logged in
+[2021.04.10-19.08.29:995][368]PIE: Play in editor total start time 0.103 seconds.
+[2021.04.10-19.08.30:502][427]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.30:502][427]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.33:192][750]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.33:192][750]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.33:609][800]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.33:609][800]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.33:775][820]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.33:775][820]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.33:942][840]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.33:942][840]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.34:117][861]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.34:118][861]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.35:901][ 75]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.35:901][ 75]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:100][ 99]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:100][ 99]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:259][118]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:259][118]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:442][140]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:442][140]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:634][163]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:634][163]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:817][185]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:817][185]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:967][203]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.36:967][203]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:150][225]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:150][225]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:351][249]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:351][249]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:559][274]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:559][274]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:767][299]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:767][299]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:934][319]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.37:934][319]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.38:126][342]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.38:126][342]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.38:317][365]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.38:317][365]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.38:501][387]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.38:501][387]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.08.45:106][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.08.45:106][162]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.08.45:107][162]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-19.08.45:107][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.08.45:112][162]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-19.08.45:116][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.08.45:151][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.08.45:152][162]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC06AE0900), frame # 130162
+[2021.04.10-19.08.45:152][162]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC9F687E00), frame # 130162
+[2021.04.10-19.08.45:154][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.04.10-19.08.45:182][163]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.04.10-19.12.04:834][282]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2021.04.10-19.12.04:839][282]LogBlueprint: Error: [Compiler 2DSideScrollerCharacter] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2021.04.10-19.12.04:839][282]LogBlueprint: Error: [Compiler 2DSideScrollerCharacter] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2021.04.10-19.12.04:881][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.04.10-19.13.17:065][750]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2021.04.10-19.13.17:118][750]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.04.10-19.13.20:067][ 80]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerCharacterF948392A410EE84F3850B1A31CDE0723.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2021.04.10-19.13.20:080][ 80]AssetCheck: New page: Asset Save: 2DSideScrollerCharacter
+[2021.04.10-19.13.20:080][ 80]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2021.04.10-19.13.23:262][433]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-19.13.23:271][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-19.13.23:271][433]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 11:13:23 AM)
+[2021.04.10-19.13.23:294][433]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.13.23:296][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002182s)
+[2021.04.10-19.13.23:296][433]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-19.13.23:297][433]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC1960AC00), frame # 154433
+[2021.04.10-19.13.23:297][433]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC21085580), frame # 154433
+[2021.04.10-19.13.23:297][433]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2021.04.10-19.13.23:297][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003159s)
+[2021.04.10-19.13.23:323][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.04.10-19.13.23:325][433]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-19.13.23:325][433]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-19.13.23:325][433]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-19.13.23:325][433]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-19.13.23:325][433]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-19.13.23:325][433]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-19.13.23:325][433]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-19.13.23:325][433]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-19.13.23:325][433]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-19.13.23:325][433]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-19.13.23:330][433]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-19.13.23:330][433]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-19.13.23:343][433]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-19.13.23:344][433]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-19.13.23:344][433]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-19.13.23:344][433]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-19.13.23:344][433]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-19.13.23:355][433]LogInit: FAudioDevice initialized.
+[2021.04.10-19.13.23:364][433]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-19.13.23:366][433]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-15.13.23
+[2021.04.10-19.13.23:366][433]LogWorld: Bringing up level for play took: 0.000658
+[2021.04.10-19.13.23:366][433]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.04.10-19.13.23:368][433]PIE: Server logged in
+[2021.04.10-19.13.23:369][433]PIE: Play in editor total start time 0.099 seconds.
+[2021.04.10-19.13.24:029][511]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.24:029][511]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.25:994][747]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.25:994][747]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.26:643][825]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.26:644][825]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.26:827][847]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.26:827][847]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:035][872]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:035][872]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:319][906]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:319][906]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:544][933]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:544][933]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:794][963]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:794][963]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:978][985]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.27:978][985]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.28:194][ 11]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.28:194][ 11]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.28:386][ 34]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.28:386][ 34]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.28:594][ 59]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.28:594][ 59]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.28:810][ 85]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.28:810][ 85]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:035][112]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:035][112]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:252][138]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:252][138]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:469][164]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:469][164]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:659][187]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:660][187]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:902][216]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.29:902][216]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.30:111][241]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.30:111][241]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.30:344][269]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.30:344][269]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.30:577][297]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.30:577][297]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.30:762][319]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.30:762][319]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.13.30:975][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.13.30:975][341]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.13.30:975][341]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-19.13.30:976][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.13.30:982][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-19.13.30:985][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.13.31:022][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.13.31:023][341]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC21085580), frame # 155341
+[2021.04.10-19.13.31:023][341]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC1960AC00), frame # 155341
+[2021.04.10-19.13.31:025][341]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.04.10-19.13.31:051][342]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.04.10-19.14.00:617][336]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2021.04.10-19.14.06:761][ 60]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2021.04.10-19.14.07:174][105]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2021.04.10-19.14.08:535][265]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2021.04.10-19.14.09:379][363]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2021.04.10-19.14.10:522][497]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2021.04.10-19.14.11:065][559]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2021.04.10-19.15.14:049][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.04.10-19.15.14:071][560]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerExampleMap_Auto21A27939D4E09240DB1C06B90BBCB9988.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto2.umap'
+[2021.04.10-19.15.14:074][560]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.050
+[2021.04.10-19.15.14:074][560]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.050
+[2021.04.10-19.15.14:074][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter] ([1] browsable assets)...
+[2021.04.10-19.15.14:074][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter]
+[2021.04.10-19.15.14:097][560]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerCharacter_Auto252E87E7044B80D44B97E22B95990A48A.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto2.uasset'
+[2021.04.10-19.15.14:099][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Projectile] ([1] browsable assets)...
+[2021.04.10-19.15.14:103][560]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Blueprints/Projectile.Projectile]
+[2021.04.10-19.15.14:103][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Projectile]
+[2021.04.10-19.15.14:109][560]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Projectile_Auto267B3F68E45D7B4403928DEB156DFBE20.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Projectile_Auto2.uasset'
+[2021.04.10-19.15.14:110][560]LogFileHelpers: Auto-saving content packages took 0.036
+[2021.04.10-19.15.14:941][658]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2021.04.10-19.15.16:026][784]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2021.04.10-19.15.18:062][ 25]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2021.04.10-19.15.22:672][570]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2021.04.10-19.15.29:636][256]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2021.04.10-19.15.31:567][483]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2021.04.10-19.15.33:253][682]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2021.04.10-19.15.40:295][505]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2021.04.10-19.15.41:819][683]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_34)
+[2021.04.10-19.15.43:012][823]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_17)
+[2021.04.10-19.15.44:789][ 33]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2021.04.10-19.19.14:994][467]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2021.04.10-19.19.15:498][524]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2021.04.10-19.19.16:593][652]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2021.04.10-19.19.20:280][ 90]Cmd: TRANSACTION UNDO
+[2021.04.10-19.19.20:280][ 90]LogEditorTransaction: Undo Move Actors
+[2021.04.10-19.19.20:571][ 98]Cmd: TRANSACTION UNDO
+[2021.04.10-19.19.20:571][ 98]LogEditorTransaction: Undo Clicking on Actors
+[2021.04.10-19.19.21:921][242]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2021.04.10-19.19.22:633][324]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2021.04.10-19.19.22:938][357]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2021.04.10-19.21.16:828][401]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2021.04.10-19.21.16:884][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.04.10-19.21.17:560][457]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerCharacter0D570B4646ADA5B2D47090BBF28C0940.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2021.04.10-19.21.17:574][457]AssetCheck: New page: Asset Save: 2DSideScrollerCharacter
+[2021.04.10-19.21.17:575][457]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2021.04.10-19.21.19:687][667]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.10-19.21.19:696][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.10-19.21.19:696][667]PIE: New page: PIE session: 2DSideScrollerExampleMap (Apr 10, 2021, 11:21:19 AM)
+[2021.04.10-19.21.19:696][667]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.21.19:698][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002133s)
+[2021.04.10-19.21.19:699][667]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2021.04.10-19.21.19:699][667]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FCB55C0C00), frame # 203667
+[2021.04.10-19.21.19:699][667]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC9F42E5C0), frame # 203667
+[2021.04.10-19.21.19:699][667]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2021.04.10-19.21.19:699][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003169s)
+[2021.04.10-19.21.19:726][667]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.04.10-19.21.19:728][667]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.10-19.21.19:728][667]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.10-19.21.19:728][667]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.10-19.21.19:728][667]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.10-19.21.19:728][667]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.10-19.21.19:728][667]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.10-19.21.19:728][667]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.10-19.21.19:728][667]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.10-19.21.19:728][667]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.10-19.21.19:728][667]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.10-19.21.19:733][667]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-19.21.19:733][667]LogAudioMixer: Display: 1: FrontRight
+[2021.04.10-19.21.19:747][667]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2021.04.10-19.21.19:747][667]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.10-19.21.19:747][667]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.10-19.21.19:747][667]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.10-19.21.19:747][667]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.10-19.21.19:758][667]LogInit: FAudioDevice initialized.
+[2021.04.10-19.21.19:767][667]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.04.10-19.21.19:769][667]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2021.04.10-15.21.19
+[2021.04.10-19.21.19:769][667]LogWorld: Bringing up level for play took: 0.000647
+[2021.04.10-19.21.19:769][667]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.04.10-19.21.19:770][667]PIE: Server logged in
+[2021.04.10-19.21.19:771][667]PIE: Play in editor total start time 0.076 seconds.
+[2021.04.10-19.21.20:299][725]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.20:299][725]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.20:806][786]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.20:806][786]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.20:989][808]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.20:989][808]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:156][828]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:156][828]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:322][848]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:322][848]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:506][870]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:506][870]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:690][892]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:690][892]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:872][914]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.21:872][914]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.22:039][934]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.22:039][934]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.22:230][957]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.22:230][957]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.22:439][982]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.22:440][982]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.22:672][ 10]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.22:672][ 10]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.28:480][689]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.28:480][689]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.28:629][707]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.28:629][707]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.28:780][725]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.28:780][725]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.28:937][744]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.28:937][744]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.29:097][763]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.29:097][763]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.29:271][784]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.29:271][784]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.29:413][801]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.29:413][801]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.29:581][821]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.21.29:581][821]LogScript: Warning: Script Msg: AimVector should not be zero. Please specify which direction.
+[2021.04.10-19.22.24:446][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.22.24:446][302]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2021.04.10-19.22.24:446][302]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.04.10-19.22.24:446][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.22.24:450][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.10-19.22.24:453][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.10-19.22.24:490][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.10-19.22.24:491][302]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC9F42E5C0), frame # 211302
+[2021.04.10-19.22.24:491][302]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FCB55C0C00), frame # 211302
+[2021.04.10-19.22.24:493][302]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.04.10-19.22.24:519][303]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.04.10-19.22.25:535][425]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2021.04.10-19.22.29:098][849]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2021.04.10-19.22.34:959][544]Cmd: TRANSACTION UNDO
+[2021.04.10-19.22.34:959][544]LogEditorTransaction: Undo Move Actors
+[2021.04.10-19.22.40:293][132]Cmd: TRANSACTION UNDO
+[2021.04.10-19.22.40:293][132]LogEditorTransaction: Undo Move Actors
+[2021.04.10-19.22.42:072][297]Cmd: TRANSACTION UNDO
+[2021.04.10-19.22.42:072][297]LogEditorTransaction: Undo Move Actors
+[2021.04.10-19.22.44:018][527]Cmd: TRANSACTION UNDO
+[2021.04.10-19.22.44:018][527]LogEditorTransaction: Undo Move Actors
+[2021.04.10-19.22.50:355][283]Cmd: TRANSACTION UNDO
+[2021.04.10-19.22.50:356][283]LogEditorTransaction: Undo Move Actors
+[2021.04.10-19.22.57:987][129]Cmd: TRANSACTION UNDO
+[2021.04.10-19.22.57:987][129]LogEditorTransaction: Undo Move Actors
+[2021.04.10-19.23.23:451][705]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2021.04.10-19.23.26:205][ 30]Cmd: TRANSACTION UNDO
+[2021.04.10-19.23.26:205][ 30]LogEditorTransaction: Undo Move Actors
+[2021.04.10-19.24.55:814][672]LogEditorTransaction: Undo Move Node
+[2021.04.10-19.24.56:323][685]LogEditorTransaction: Undo Delete current selection
+[2021.04.10-19.26.31:969][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.04.10-19.26.31:990][ 93]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerExampleMap_Auto3B2A5FC2C454553FF519385972EC7DE3A.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto3.umap'
+[2021.04.10-19.26.31:992][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.052
+[2021.04.10-19.26.31:992][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.052
+[2021.04.10-19.26.31:992][ 93]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter] ([1] browsable assets)...
+[2021.04.10-19.26.31:993][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter]
+[2021.04.10-19.26.32:018][ 93]LogSavePackage: Moving 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/2DSideScrollerCharacter_Auto39C4A103144B41F5114B79AA11AFC6457.tmp' to 'H:/Users/David/source/repos/603-Rain-Game/RainGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter_Auto3.uasset'
+[2021.04.10-19.26.32:019][ 93]LogFileHelpers: Auto-saving content packages took 0.027
+[2021.04.10-19.31.47:583][387]LogTemp: Resetting audio stream to device id 
+[2021.04.10-19.31.47:600][387]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.10-19.31.47:600][387]LogAudioMixer: Display: 1: FrontRight
