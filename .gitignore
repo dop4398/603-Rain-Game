@@ -72,3 +72,5 @@ RainGame/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 RainGame/DerivedDataCache/*
+
+RainGame/AutoScreenshot.png
